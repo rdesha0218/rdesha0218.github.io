@@ -1,6 +1,12 @@
 * {
 	list-style: none;
 	box-sizing: border-box;
+	/*
+	background: #545454;
+	color: #EAE0C8; 
+	*/
+
+text-shadow: 1px 1px 1px #000000;
 }
 * a,
 a::before,
@@ -45,11 +51,13 @@ nav ul > li {
 	font-family: 'Source Serif Pro', serif;
 	font-size:50px;
   color: #fff; 
+  text-shadow: .5px .5px .5px #fff;
   padding-top:300px;
   text-align: center;
   width: 45%;
   margin-right:auto;
   margin-left: auto;
+  background: none;
 }
 
 .about {
@@ -74,7 +82,6 @@ text-align: left;
 margin: 0px 20px 0px 20px;
 font-family: 'Cinzel', serif;
 font-size: 25px;
-text-shadow: -1px -1px 1px #000000;
 }
 
 .portfolio .port-title h2 {
@@ -84,31 +91,35 @@ text-shadow: -1px -1px 1px #000000;
 /* ----- About End ------*/
 .port-title {
 	text-align: center;
-	/*
-	height: 250px;
-	width: 100%;
-	*/
+	font-family: 'Gochi Hand', cursive;
+	font-size:35px;
+	
 }
-.img-width {
-	width: 100%;
-}
+
 .times img,
 .fresh img,
 .codepen img,
 .karma img {
 	text-align: center;
 	height: 200px;
-	width:200px;
+	width:20%;
 	border: 1px solid black;
 	margin: 30px 30px;
 	float: left;
 	display: inline;
+	padding:2px;
 }
-
-
+.times #text {
+	position:relative;
+	visibility: hidden;
+}
+.times:hover .text {
+	visibility: visible;
+}
 
 /*------ Footer -------*/
 .content-footer {
+	margin-top: 30px;
 	text-align: center;
 	font-size: 35px;
 	font-family: 'Gochi Hand', cursive;
@@ -118,9 +129,10 @@ text-shadow: -1px -1px 1px #000000;
 	display: inline-block;
 	font-family: 'Source Serif Pro', serif;
 	font-size:20px;
+	padding-right:30px;
 }
 .source {
-	font-size: 15px;
+	font-size: 20px;
 
 }
 
