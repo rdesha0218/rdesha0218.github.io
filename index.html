@@ -1,64 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Ryan DeSha: Web Developer</title>
-   <link rel="stylesheet" href="css/normalize.css">
+    <title>Ryan DeSha: Junior Web Developer</title>
     <link rel="stylesheet" href="css/style.css">
-   <link href='https://fonts.googleapis.com/css?family=Gochi+Hand|Cinzel:400,700,900|Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Gochi+Hand|Cinzel:400,700,900|Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
 </head>
+
 <body>
-<nav>
-    <h1 class="name">Ryan DeSha</h1>
-    <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Social</a></li>
-</nav>
-<section>
-	<div class="intro">
-		<h2>Hello, I'm Ryan DeSha and I'm a Junior Web Developer living in Portland</h2>
-	</div>
-	</section>
 
-<div class="about">
-    <img src="img/img_1232.jpg" alt="Me">
-    <h2>About Me</h2>
-    <p>I'm 30 years old living on my own in Beaverton, Oregon as a Junior Web Developer and wanting to get a job as a Front-End Developer. I'm looking gain more skills as I go and I'm still learning. I'm looking to maybe end up as a mobile developer, data scientist or devops engineer. Contact me and I'll try to help you out. My current skills include HTML, CSS, JavaScript and JQuery.</p>
-</div>
-</section>
+<!-- Navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand  name_title cursive" href="#">Ryan DeSha</a>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Social</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End navbar -->
 
-<section>
-	<div class"portfolio">
-		<h2 class="port-title">Portfolio</h2>
-		<ul class="img-width">
-		<li class="fresh"><a href="https://github.com/rdesha0218/freshprince"><img src="img/fresh.png" alt="Fresh Prince Project"></a></li>
-		<li class="times"><a href="https://drive.google.com/open?id=0B2mMPKto5TWwemVXUnlVb1dacVk"><img src="img/times.png" alt="New York Times Hack Project"></a></li>
-		<li class="codepen"><a href="http://codepen.io/rdesha0218/full/zvOpvo"><img src="img/codepen.png" alt="Codepen About Me Project"></a></li>
-		<li class="karma"><a href="http://rdesha0218.github.io/startup-landing-page-clone/"><img src="img/karma.png" alt="Karma Clone Landing Page Project"></a></li>
-	</ul>
+    <div class="container">
+        
+    <div class="intro jumbotron">
+        <h1>Hello, I'm Ryan DeSha</h1>
+        <h2>I'm a Junior Web Developer living in the Portland area and I'm looking for a job in programming.</h2>
+    </div>
 
-	<!-- 
-	<p id="text">Fresh Prince Project</p>
-<p id="text">New York Times Hack Project</p>
-<p id="text">Codepen About Me Project</p>
-<p id="text">Karma Landing Page Clone</p>
--->
+    <div class="row jumbotron">
+        <div class="col-sm-6">
+        <img class="img-responsive" src="img/img_1232.jpg" alt="Me">
+        </div
+        <div class="lead col-sm-6">
+            <h2 class="cursive">About Me</h2>
+            <p class="intro_font">I'm 30 years old living on my own in Beaverton, Oregon as a Junior Web Developer and wanting to get a job as a Front-End Developer. I'm looking gain more skills as I go and I'm still learning. I'm looking to maybe end up as a mobile developer, data scientist or devops engineer. Contact me and I'll try to help you out. My current skills include HTML, CSS, JavaScript and JQuery.</p>
+    </div>
 
-</section>
+        <div class "portfolio">
+            <h2 class="cursive port-title">Portfolio</h2>
+         <div class="row">
+                <div class="col-md-4">
+                    <h2>Fresh Prince Project</h2>
+                    <a href="https://github.com/rdesha0218/freshprince"><img class="img-responsive fresh" src="img/fresh.png" alt="Fresh Prince Project"></a>
+                    <h3 class="cursive">This was the first project I did for Thinkful. It was useful as a refresher for HTML and CSS.</h3>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="times">New York Times Hack Project</h2>
+                    <a href="https://drive.google.com/open?id=0B2mMPKto5TWwemVXUnlVb1dacVk"><img class="img-responsive" src="img/times.png" alt="New York Times Hack Project"></a>
+                    <h3 class="cursive">This project was to help teach you how to manipulate webpages using the Developer Console.</h3>
+                </div>
+                <div class="col-md-4 codepen">
+                    <h2>Codepen About Me</h2>
+                    <a href="http://codepen.io/rdesha0218/full/zvOpvo"><img class="img-responsive" src="img/codepen.png" alt="Codepen About Me Project"></a>
+                    <h3 class="cursive">With this project, I learned how to use Codepen and designed my first About Me page.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 karma">
+                    <h2>Karma Landing Page Clone</h2>
+                    <a href="http://rdesha0218.github.io/startup-landing-page-clone/"><img class="img-responsive" src="img/karma.png" alt="Karma Clone Landing Page Project"></a>
+                    <h3 class="cursive">With this project I was given a supply of text and images. I combined them in recreating the Karma Landing page.</h3>
+                </div>
+                <div class="col-md-4 fighter">
+                    <h2>Street Fighter Page</h2>
+                    <a href="#"><img class="img-responsive" src="img/fighter.png" alt="Street Fighter"></a>
+                    <h3 class="cursive">With this app I was given resources and had to use them with JQuery to create this app. He kicks, throws fire balls and when you press 'x' he does a 'cool' pose.</p>
+                </div>
+                <div class="col-md-4 hotCold">
+                    <h2>Hot or Cold Game</h2>
+                    <a href="#"><img class="img-responsive" src="img/hotCold.png" alt="Hot and Cold Web App"></a>
+                    <h3 class="cursive">With this game I used Javascript and JQuery to make a game. The computer randomly gets a number and you have to find out if the number you guessed was close to the computer. 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Fallout Quiz</h2>
+                    <a href="#"><img class="img-responsive" src="img/quiz.png"></a>
+                    <h3 class="cursive">With this app I was inspired by the future release of Fallout 4. I used Javascript and JQuery to make an app that quized you on six questions from Fallout 3 and New Vegas.</h3>
+                </div>
+                <div class="col-md-4">
+                    <h2>Shopping List</h2>
+                    <a href="#"><img class="img-responsive" src="img/shoppingList.png"></a>
+                    <h3 class="cursive">This was a simple app using JQuery that allows someone to add shopping items to a list. You can remove the items by simple clicking on the items.</h3>
+                </div>
+                <div class="col-md-4">
+                    <h2>Stack Overflow API</h2>
+                    <a href="#"><img class="img-responsive"></a>
+                    <h3 class="cursive">This app outputs a list of unanswered questions and gives the list of top question answerers for a given searched topic. The unanswered part was already done for you and it was up to you to write the code that accessed the Stack Overflow API and gets information about the top answerers.</h3> 
+                </div>
+            </div>
+         <div class="row">
+                <div class="col-md-4">
+                    <h2>Weather App</h2>
+                    <a href="#"><img class="img-responsive" src="img/weather.png"></a>
+                    <h3 class="cursive">I created this app that used the Weather Underground API to get weather data for a searched city.</h3>
+                </div>    
+
+                </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 <!-- Footer -->
 
 <footer class="content-footer">
-  <p>Contact me here</p>
-  <ul class="social">
-    <li><a href="https://github.com/rdesha0218">Github</a></li>
-    <li><a href="http://twitter.com/RyanDeSha">Twitter</a></li>
-    <li><a href="http://ryandesha.wordpress.com">Wordpress</a></li>
-    <li><a href="mailto:rdesha0218@yahoo.com">Email</a></li>
-  </ul>
-  <p class="source">Cover photo provided via <a href="https://vintageportland.wordpress.com/2011/09/30/downtown-from-portland-heights-c1900/ "><i>Vintage Portland</i></a></p>
+    <h3 class="cursive">Contact me here</h3>
+    <ul class="social">
+        <li><a href="https://github.com/rdesha0218">Github</a></li>
+        <li><a href="http://twitter.com/RyanDeSha">Twitter</a></li>
+        <li><a href="http://ryandesha.wordpress.com">Wordpress</a></li>
+        <li><a href="mailto:rdesha0218@yahoo.com">Email</a></li>
+    </ul>
+    <p class="source">Cover photo provided via <a href="https://vintageportland.wordpress.com/2011/09/30/downtown-from-portland-heights-c1900/ "><i>Vintage Portland</i></a></p>
 </footer>
+
 </html>

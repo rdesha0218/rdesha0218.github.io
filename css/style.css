@@ -1,27 +1,134 @@
-* {
-	list-style: none;
-	box-sizing: border-box;
-	/*
-	background: #545454;
-	color: #EAE0C8; 
-	*/
-
-text-shadow: 1px 1px 1px #000000;
+/* Layout
+================================ */
+.container {
+	max-width: 1100px;
 }
+.name_title {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 200% !important;
+	color: white !important;
+}
+.cursive {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 200% !important;
+}
+
+/* Jumbotron
+================================ */
+.jumbotron {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.intro {
+	background:url("../img/portland-1900.jpg") !important;
+	background-position: center bottom !important;
+	background-repeat: no-repeat !important;
+  	background-size: cover !important;
+  	height: 500px !important;
+  	margin-top: 20px;
+  	color: white !important;
+	}
+
+.intro h1 {
+	text-align: center;
+	margin-top: 150px;
+}
+.navbar {
+	margin-bottom: 50px;
+}
+
+.fresh {
+	border: 2px black solid;
+	margin-right: auto;
+	margin-left: auto;
+}
+.times {
+font-size: 180%;
+}
+
+.port-title {
+	margin: 50px 0px;
+	text-align: center;
+}
+.row {
+	padding-bottom: 20px;
+}
+
+.content-footer {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 150%;
+	font-family: 'Gochi Hand', cursive;
+}
+.social li {
+	display: inline-block;
+	font-family: 'Source Serif Pro', serif;
+	font-size:20px;
+	padding-right:30px;
+}
+.source {
+	font-size: 20px;
+}
+
+
+/*
+body {
+	text-shadow: 1px 1px 1px #000000;
+	padding: 10px 10px;
+	color: #fff;
+}
+
+body {
+	padding-top: 50px;
+}
+
+.intro {
+	background:url("../img/portland-1900.jpg") !important;
+	background-position: center bottom !important;
+	background-repeat: no-repeat !important;
+  	background-size: cover !important;
+  	height: 80% !important;
+  	
+	}
+h2.port-title {
+	text-align: center;
+}
+.row {
+	padding-top: 50px;
+}
+
+.fresh {
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+
+footer {
+	text-align: center;
+	padding-top: 50px;
+	display: inline-block;
+	-webkit-display: inline-block;
+}
+
+
+/*
+
+body { 
+	background: #282828 !important; 
+}
+
+
+
 * a,
 a::before,
 a::after {
 	text-decoration: none;
 	color:black;
 }
-
-nav {
-	height:20px;
-	width:100% cover;
-}
 .name {
 	float:left;
-	font-family:'Gochi Hand', cursive;
+	
 	font-size:40px;
 	margin: 10px 30px 0px 30px;
 }
@@ -32,17 +139,13 @@ nav ul {
 
 nav ul > li {
 	display:inline-block;
-	float:left;
 	padding-right: 20px;
 	font-size: 18px;
 	font-family: 'Source Serif Pro', serif;
 	margin-right: 30px;
-}
-.intro {
-	background:url("../img/portland-1900.jpg");
-	background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+} 
+
+	
   height: 720px;
   width:100%;
 
@@ -68,8 +171,6 @@ nav ul > li {
 .about img {
 	float:left;
 	margin: 0px 20px 0px 20px;
-	/*height:400px;
-	width:30%;*/
 }
 .about h2 {
 	font-family: 'Gochi Hand', cursive;
@@ -88,7 +189,6 @@ font-size: 25px;
 	text-align: center;
 	font-family: 'Gochi Hand', cursive;
 }
-/* ----- About End ------*/
 .port-title {
 	text-align: center;
 	font-family: 'Gochi Hand', cursive;
@@ -117,7 +217,6 @@ font-size: 25px;
 	visibility: visible;
 }
 
-/*------ Footer -------*/
 .content-footer {
 	margin-top: 30px;
 	text-align: center;
@@ -125,7 +224,6 @@ font-size: 25px;
 	font-family: 'Gochi Hand', cursive;
 }
 .social li {
-	display: -webkit-inline-box;
 	display: inline-block;
 	font-family: 'Source Serif Pro', serif;
 	font-size:20px;
@@ -133,8 +231,5 @@ font-size: 25px;
 }
 .source {
 	font-size: 20px;
-
 }
-
-
-
+*/
