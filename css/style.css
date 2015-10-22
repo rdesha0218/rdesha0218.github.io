@@ -47,6 +47,9 @@
 font-size: 180%;
 }
 
+.shopping img {
+	height: 70% !important;
+}
 .port-title {
 	margin: 50px 0px;
 	text-align: center;
