@@ -1,7 +1,9 @@
 /* Layout
 ================================ */
-.container {
-	max-width: 1100px;
+* {
+	box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	-mozilla-box-sizing: border-box;
 }
 .name_title {
 	font-family: 'Gochi Hand', cursive;
@@ -34,32 +36,56 @@
 	text-align: center;
 	margin-top: 150px;
 }
-.navbar {
-	margin-bottom: 50px;
-}
-
-.fresh {
-	border: 2px black solid;
-	margin-right: auto;
-	margin-left: auto;
-}
-.times {
-font-size: 180%;
-}
-
-.shopping img {
-	height: 70% !important;
-}
 .port-title {
-	margin: 50px 0px;
+	padding-top: 20px;
 	text-align: center;
 }
-.row {
-	padding-bottom: 20px;
+/*========= Carousel ========*/
+.carousel,
+#caraousel {
+	background-color: #484848;
+	height: 550px !important;
+	margin-bottom: 10px;
 }
 
+.title {
+	text-align: center;
+}
+
+.item h2,
+.item img, 
+.item h3 {
+	color: #fff;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	padding: 10px;
+}
+
+.item img {
+	height: 45%;
+	width: 45%;
+}
+#hotcode {
+	height: 30%;
+	width: 30%;
+}
+#shopping {
+	height: 20% important;
+	width: 30%;
+}
+.item h3 {
+	font-size: 120%;
+	width: 80%;
+}
+
+.carousel-indicators {
+	padding-top: 50px;
+}
+
+/*=================================*/
 .content-footer {
-	margin-top: 30px;
+	color: #000000 !important;
+	padding-top: 50px;
 	text-align: center;
 	font-size: 150%;
 	font-family: 'Gochi Hand', cursive;
@@ -73,7 +99,6 @@ font-size: 180%;
 .source {
 	font-size: 20px;
 }
-
-footer ul>li  {
+.content-footer ul > li  {
 	list-style: none;
 }
